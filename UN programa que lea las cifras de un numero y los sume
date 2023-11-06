@@ -1,0 +1,9 @@
+#UN programa que lea las cifras de un numero y los sume
+#Ejemplo: 232=2+3+2
+def sumarnumeros():
+  numero=input("Dime un numero: ")
+  suma=0
+  for digito in numero:
+    suma=suma+int(digito)
+  print(suma)
+sumarnumeros()  
