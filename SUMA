@@ -1,0 +1,7 @@
+def suma():
+  a=str(input("Dime un numero: "))
+  b=str(input("dime otro numero: "))
+  respuesta=int(a)+int(b)
+  
+  print("La suma de "+a+" y "+b + " es igual a "+ str(respuesta))
+suma()
