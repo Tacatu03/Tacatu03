@@ -1,0 +1,29 @@
+#Hace una pregunta
+#si la respondes bien te dice que es correcto
+#si la respondes mal te dice que es incorrecto
+
+def pregunta():
+  respuesta = int(input("Cuantos continentes existen? "))
+  if(respuesta == 5):
+    print("Correcto")
+  else:
+    print("Incorrecto has suspendido")
+pregunta()
+
+
+def iva():
+  precio = int(input("Cuanto te ha costado? "))
+  respuesta = precio * 0.21 + precio
+  print("Si le sumas el iva son",respuesta)
+iva()
+
+def media():
+  Mates=int(input("Cuanto has sacado en mates?"))
+  lengua=int(input("Cuanto has sacado en lengua?"))
+  Promedio=(Mates+lengua)/2
+  print("Tu promedio es",Promedio)
+  if(Promedio>=5):
+    print("enhorabuena estas aprobado")
+  else:
+    print("Lo siento, has suspendido")
+media()
